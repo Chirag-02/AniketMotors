@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "396146327896",
+    "project_id": "emploc-8733a",
+    "storage_bucket": "emploc-8733a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396146327896:android:85fed5d71adfe39a3da52d",
+        "android_client_info": {
+          "package_name": "com.emploc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396146327896-64t52mfqlifqri6j4elk30gdvp0dubau.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfUwOoHzGpGFcVptWyl6kLBjoMPabciq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396146327896-64t52mfqlifqri6j4elk30gdvp0dubau.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

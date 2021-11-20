@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="app_bar_height">200dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+
+    <dimen name="text_s">12sp</dimen>
+    <dimen name="text_m">14sp</dimen>
+    <dimen name="text_l">16sp</dimen>
+    <dimen name="text_xl">20sp</dimen>
+    <dimen name="text_2xl">24sp</dimen>
+    <dimen name="text_3xl">30sp</dimen>
+    <dimen name="text_4xl">40sp</dimen>
+
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_m">16dp</dimen>
+    <dimen name="margin_l">24dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+
+    <dimen name="radius_s">4dp</dimen>
+    <dimen name="radius_m">8dp</dimen>
+    <dimen name="radius_l">12dp</dimen>
+    <dimen name="radius_xl">16dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="standard_field_width">200dp</dimen>
+
+    <dimen name="preview_side_margin">16dp</dimen>
+    <dimen name="margin_from_tray_to_name">16dp</dimen>
+    <dimen name="sticker_pack_details_image_size">80dp</dimen>
+    <dimen name="sticker_pack_details_image_padding">8dp</dimen>
+    <dimen name="fading_edge_length">8dp</dimen>
+    <dimen name="sticker_pack_list_item_preview_image_size">50dp</dimen>
+    <dimen name="sticker_pack_list_item_preview_image_padding">4dp</dimen>
+    <dimen name="sticker_pack_list_item_row_dot_horizontal_padding">4dp</dimen>
+
+    <dimen name="txt_size_32sp">32sp</dimen>
+    <dimen name="txt_size_20sp">20sp</dimen>
+    <dimen name="txt_size_24sp">24sp</dimen>
+    <dimen name="txt_size_18sp">18sp</dimen>
+    <dimen name="txt_size_28sp">28sp</dimen>
+    <dimen name="value_30dp">30dp</dimen>
+    <dimen name="value_35dp">35dp</dimen>
+
+    <dimen name="value_80dp">80dp</dimen>
+    <dimen name="value_50dp">50dp</dimen>
+    <dimen name="value_20dp">20dp</dimen>
+    <dimen name="txt_size_22sp">22sp</dimen>
+    <dimen name="value_15dp">15dp</dimen>
+    <dimen name="value_5dp">5dp</dimen>
+    <dimen name="value_200dp">200dp</dimen>
+    <dimen name="value_40dp">40dp</dimen>
+    <dimen name="dimen_10dp">10dp</dimen>
+    <dimen name="value_220dp">220dp</dimen>
+    <dimen name="value_280dp">280dp</dimen>
+    <dimen name="value_100dp">100dp</dimen>
+    <dimen name="value_2dp">3dp</dimen>
+    <dimen name="value_70dp">70dp</dimen>
+    <dimen name="spacing">16dp</dimen>
+    <dimen name="txt_size_16sp">16sp</dimen>
+    <dimen name="txt_size_14sp">14sp</dimen>
+    <dimen name="dimen_60dp">60dp</dimen>
+    <dimen name="txt_size_11sp">11sp</dimen>
+</resources>

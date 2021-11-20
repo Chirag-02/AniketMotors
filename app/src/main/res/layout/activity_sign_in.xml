@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screens.loginmodule.verification.VerificationActivity">
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/helveticamedium"
+        android:text="Mobile Number Verification"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="@dimen/txt_size_16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33"
+        app:srcCompat="@drawable/phone_icon" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/helveticamedium"
+        android:text="Enter the OTP sent to +91 8802801033"
+        android:textColor="@color/hintTextColor"
+        android:textSize="@dimen/txt_size_14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <View
+        android:id="@+id/view25"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/border_rectangle_less_corners"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView45" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/countryCodePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view25"
+        app:layout_constraintStart_toStartOf="@+id/view25"
+        app:layout_constraintTop_toTopOf="@+id/view25" />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/userMobileNumber"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="3dp"
+        android:background="@color/white"
+        android:fontFamily="@font/helveticamedium"
+        android:hint="Mobile Number"
+        android:inputType="text"
+        android:textColor="@color/primaryDarkColor"
+        android:textSize="@dimen/txt_size_16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/countryCodePicker"
+        app:layout_constraintEnd_toEndOf="@+id/view25"
+        app:layout_constraintStart_toEndOf="@+id/countryCodePicker"
+        app:layout_constraintTop_toTopOf="@+id/countryCodePicker" />
+
+    <TextView
+        android:id="@+id/gotoVerification"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/primary_dark_rectangle"
+        android:elevation="@dimen/dimen_10dp"
+        android:shadowColor="@color/black"
+
+        android:fontFamily="@font/helveticabold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView45"
+        app:layout_constraintStart_toStartOf="@+id/textView45"
+        app:layout_constraintTop_toBottomOf="@+id/view25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

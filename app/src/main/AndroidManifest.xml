@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.emploc">
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".EmplocApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Emploc"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".aniketmotor.register.AniketMotorsRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".aniketmotor.login.AniketMotorsLoginActivity"
+            android:exported="false" />
+        <activity android:name=".aniketmotor.AniketMotorsWebViewActivity" />
+        <activity android:name=".aniketmotor.AniketMotorsHomeActivity" />
+        <activity android:name=".screens.editprofile.EditProfileActivity" />
+        <activity android:name=".screens.loginmodule.devicepin.DevicePinActivity" />
+        <activity android:name=".screens.loginmodule.verification.VerificationActivity" />
+        <activity android:name=".screens.tasksinfo.TasksInformationActivity" />
+        <activity android:name=".screens.home.HomeActivity" />
+        <activity android:name=".screens.signupform.SignUpActivity" />
+        <activity android:name=".screens.choosesignupmode.ChooseSignupModeActivity" />
+        <activity android:name=".screens.donthaveaccount.DontHaveAccountActivity" />
+        <activity android:name=".screens.slider.SliderActivity" />
+        <activity
+            android:name=".screens.splash.SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".screens.MainActivity" />
+        <activity android:name=".screens.loginmodule.signin.SignInActivity" />
+
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDfUwOoHzGpGFcVptWyl6kLBjoMPabciq4" />
+    </application>
+
+</manifest>

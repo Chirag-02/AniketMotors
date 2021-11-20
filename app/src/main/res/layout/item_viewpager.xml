@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4f4f5">
+
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:gravity="center"-->
+    <!--        android:orientation="vertical">-->
+    <!--        <androidx.appcompat.widget.AppCompatImageView-->
+    <!--            android:id="@+id/tvImage"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:src="@drawable/ic_image1st"-->
+    <!--            android:layout_alignParentTop="true"-->
+    <!--            />-->
+
+
+    <!--        <androidx.appcompat.widget.AppCompatTextView-->
+    <!--            android:id="@+id/title_txt"-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_centerHorizontal="true"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textAllCaps="true"-->
+    <!--            android:textColor="@color/title_text_color"-->
+    <!--            android:textSize="@dimen/_16sdp"-->
+    <!--            android:fontFamily="@font/proximanovabold"-->
+    <!--            android:layout_marginTop="@dimen/_40sdp"-->
+    <!--            android:lineSpacingExtra="@dimen/_3sdp"-->
+    <!--            android:text="@string/slider_title" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/sub_title"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="@dimen/_10sdp"-->
+    <!--        android:lineSpacingExtra="@dimen/_3sdp"-->
+    <!--        android:textSize="@dimen/_13sdp"-->
+    <!--        android:fontFamily="@font/proximanovaregular"-->
+    <!--        android:textColor="@color/text_color_default"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Book your tickets hassle free and\n choose your favourite seat" />-->
+    <!--    </LinearLayout>-->
+
+
+    <ImageView
+        android:id="@+id/tvImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/value_40dp"
+        android:paddingEnd="@dimen/value_40dp"
+        android:paddingTop="@dimen/value_40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_slide" />
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/helveticabold"
+        android:textSize="@dimen/txt_size_18sp"
+        android:textColor="@color/primaryDarkColor"
+        app:layout_constraintBottom_toTopOf="@+id/sub_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvImage"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/sub_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:fontFamily="@font/helveticamedium"
+        android:textSize="@dimen/txt_size_14sp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title_txt" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
