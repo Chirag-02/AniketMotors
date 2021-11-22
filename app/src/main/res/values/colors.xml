@@ -22,7 +22,8 @@
     <color name="headingTextColor">#7366FF</color>
     <color name="disableColor">#f4f4f4</color>
 
-    <color name="primaryDarkColor">#2a5575</color>
+<!--    <color name="primaryDarkColor">#2a5575</color>-->
+    <color name="primaryDarkColor">#E6D21D</color>
     <color name="primaryColor">#22CE36</color>
     <color name="hintTextColor">#696D78</color>
     <color name="hintTextColor1">#CACCCF</color>

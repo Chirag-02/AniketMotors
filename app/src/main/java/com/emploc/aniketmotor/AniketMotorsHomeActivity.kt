@@ -111,6 +111,10 @@ class AniketMotorsHomeActivity : DaggerAppCompatActivity(),
         binding?.carNumber?.addTextChangedListener {
             carNum = it.toString()
             applyFilter(carCity, carNum)
+            if (binding?.carNumber?.length() == 4) {
+                binding?.carNumber?.setSelectAllOnFocus(true)
+                binding?.carNumber?.selectAll()
+            }
         }
     }
 
@@ -118,6 +122,7 @@ class AniketMotorsHomeActivity : DaggerAppCompatActivity(),
         binding?.carCity?.addTextChangedListener {
             carCity = it.toString()
             applyFilter(carCity, carNum)
+
         }
     }
 

@@ -11,7 +11,6 @@ import com.emploc.R
 import com.emploc.databinding.DialogLoaderBinding
 
 
-
 class LoaderDialog(private val message: Int) : DialogFragment() {
 
     private var binding: DialogLoaderBinding? = null
