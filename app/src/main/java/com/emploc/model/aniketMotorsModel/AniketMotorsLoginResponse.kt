@@ -1,7 +1,7 @@
 package com.emploc.model.aniketMotorsModel
 
 data class AniketMotorsLoginResponse(
-    val `data`: Data,
+    val data: Data,
     val message: String,
     val success: Boolean
 ) {

@@ -50,7 +50,8 @@ class AniketMotorsLoginActivity : DaggerAppCompatActivity() {
     }
 
     private fun checkEmptyFields() {
-        if (binding?.loginUserName?.text?.toString().isNullOrEmpty() &&
+        if (binding?.loginUserName?.text?.toString()
+                .isNullOrEmpty() && binding?.loginUserName?.text?.length != 10 &&
             binding?.loginPasswordTexts?.text?.toString().isNullOrEmpty()
         ) {
             Toast.makeText(this, "Please fill All the details", Toast.LENGTH_SHORT).show()

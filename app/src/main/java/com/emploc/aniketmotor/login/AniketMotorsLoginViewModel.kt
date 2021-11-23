@@ -33,9 +33,8 @@ class AniketMotorsLoginViewModel @Inject constructor(private val repositories: R
                 is Result.Success -> {
                     loader.onDestroyView()
 
-                    if (splashResponse.data.data.status == "1") {
+                    if (splashResponse.data.success) {
                         success.postValue(splashResponse.data)
-                        println("text-->" + splashResponse.data)
                     } else {
                         val dialog = OptionDialog(
                             activity,
@@ -56,9 +55,7 @@ class AniketMotorsLoginViewModel @Inject constructor(private val repositories: R
 
                 is Result.Error -> {
                     loader.onDestroyView()
-
                     error.postValue(splashResponse.message!!)
-
                     val dialog = OptionDialog(
                         activity,
                         R.drawable.bottom_tab_account,

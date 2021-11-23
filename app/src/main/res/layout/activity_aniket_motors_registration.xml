@@ -67,7 +67,7 @@
                     android:fontFamily="@font/helveticamedium"
                     android:hint="@string/username"
                     android:inputType="text"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -97,7 +97,7 @@
                     android:fontFamily="@font/helveticamedium"
                     android:hint="@string/password"
                     android:inputType="textPassword"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -128,7 +128,7 @@
                     android:hint="@string/aadhar_card_number"
                     android:inputType="number"
                     android:maxLength="12"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -159,7 +159,7 @@
                     android:hint="@string/phone_number"
                     android:inputType="number"
                     android:maxLength="10"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -189,7 +189,7 @@
                     android:hint="@string/parent_id"
                     android:inputType="text"
                     android:maxLength="10"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -219,7 +219,7 @@
                     android:hint="@string/state"
                     android:inputType="text"
                     android:maxLength="10"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
@@ -250,7 +250,7 @@
                     android:hint="@string/city"
                     android:inputType="text"
                     android:maxLength="10"
-                    android:textColor="@color/primaryDarkColor"
+                    android:textColor="@color/black"
                     android:textColorHint="@color/black"
                     android:textSize="@dimen/txt_size_16sp" />
             </com.google.android.material.textfield.TextInputLayout>
