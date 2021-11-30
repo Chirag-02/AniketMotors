@@ -14,7 +14,6 @@ import com.emploc.aniketmotor.login.AniketMotorsLoginActivity
 import com.emploc.databinding.ActivityAniketMotorsRegistrationBinding
 import com.emploc.util.EmplocPreferences
 import com.emploc.util.OptionDialog
-import com.theartofdev.edmodo.cropper.CropImage
 import dagger.android.support.DaggerAppCompatActivity
 import kotlinx.android.synthetic.main.toolbar.*
 import kotlinx.coroutines.Dispatchers.IO

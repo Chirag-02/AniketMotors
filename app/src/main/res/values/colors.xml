@@ -27,6 +27,7 @@
     <color name="primaryColor">#22CE36</color>
     <color name="hintTextColor">#696D78</color>
     <color name="hintTextColor1">#CACCCF</color>
+    <color name="grey">#A6A5A6</color>
 
 
 </resources>

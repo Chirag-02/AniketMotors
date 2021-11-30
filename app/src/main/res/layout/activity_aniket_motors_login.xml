@@ -33,7 +33,7 @@
         android:layout_marginStart="@dimen/dimen_10dp"
         android:layout_marginTop="@dimen/value_20dp"
         android:layout_marginEnd="@dimen/dimen_10dp"
-        android:textColorHint="@color/grey"
+        android:textColorHint="#A6A5A6"
         app:boxStrokeColor="@color/hintTextColor"
         app:endIconMode="clear_text"
         app:endIconTint="@color/primaryDarkColor"

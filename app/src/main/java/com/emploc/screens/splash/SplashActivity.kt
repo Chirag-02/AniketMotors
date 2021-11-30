@@ -6,7 +6,6 @@ import com.emploc.R
 import com.emploc.aniketmotor.AniketMotorsHomeActivity
 import com.emploc.aniketmotor.login.AniketMotorsLoginActivity
 import com.emploc.di.scoped.ActivityScoped
-import com.emploc.screens.slider.SliderActivity
 import com.emploc.util.Constant
 import com.emploc.util.EmplocPreferences
 import dagger.android.support.DaggerAppCompatActivity

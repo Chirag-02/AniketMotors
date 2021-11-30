@@ -24,7 +24,6 @@ import com.emploc.util.EmplocPreferences
 import com.emploc.util.LoaderDialog
 import com.emploc.util.OptionDialog
 import dagger.android.support.DaggerAppCompatActivity
-import kotlinx.android.synthetic.main.bottomtab_task.*
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch

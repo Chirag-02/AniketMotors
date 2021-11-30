@@ -3,17 +3,31 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable-v29/selected_dot.xml" value="0.15625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable-v29/unselected_dot.xml" value="0.1" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/account_rectangle_border.xml" value="0.15625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/blue_rectangle_corners_oval.xml" value="0.1" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/bottom_tab_account.xml" value="0.1" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/call.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/download.xml" value="0.15625" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/logout.xml" value="0.15625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/primary_dark_rectangle.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/refresh.xml" value="0.15625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/tab_selector.xml" value="0.1" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/drawable/white_rectangle_corners.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/activity_aniket_motors_home.xml" value="0.16" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/activity_aniket_motors_login.xml" value="0.14" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/activity_aniket_motors_registration.xml" value="0.18" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/activity_edit_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/activity_splash.xml" value="0.144140625" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/aniket_motors_adapter_item.xml" value="0.144140625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/bottomtab_attendance.xml" value="0.144140625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/bottomtab_task.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/dialog_loader.xml" value="0.144140625" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/dialog_option.xml" value="0.144140625" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/overdue_task_adapter_item.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/layout/toolbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/menu/bottommenu.xml" value="0.1" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15625" />
         <entry key="..\:/Users/Chirag.Verma/Downloads/emploc-main/emploc-main/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.15625" />
       </map>
