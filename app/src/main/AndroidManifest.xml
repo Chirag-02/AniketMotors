@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.emploc">
-
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.aniketassociates">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".EmplocApplication"
+        android:name="com.aniketassociates.EmplocApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Emploc"
-        android:usesCleartextTraffic="true">
+        android:usesCleartextTraffic="true"
+        tools:ignore="AllowBackup">
 
-        <activity android:name=".aniketmotor.register.AniketMotorsRegistrationActivity" />
-        <activity android:name=".aniketmotor.login.AniketMotorsLoginActivity" />
-        <activity android:name=".aniketmotor.AniketMotorsWebViewActivity" />
-        <activity android:name=".aniketmotor.AniketMotorsHomeActivity" />
+        <activity android:name="com.aniketassociates.aniketmotor.register.AniketMotorsRegistrationActivity" />
+        <activity android:name="com.aniketassociates.aniketmotor.login.AniketMotorsLoginActivity" />
+        <activity android:name="com.aniketassociates.aniketmotor.AniketMotorsWebViewActivity" />
         <activity
-            android:name=".screens.splash.SplashActivity"
+            android:name="com.aniketassociates.aniketmotor.AniketMotorsHomeActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.aniketassociates.screens.splash.SplashActivity"
+            android:exported="true"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

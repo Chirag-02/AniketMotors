@@ -22,6 +22,12 @@ allprojects {
         mavenCentral()
         maven { url 'https://jitpack.io' }
 
+        /**
+         * key store pass word =  aniket@123
+         * keyalias pass: aniket@123
+         * keystore:- D:\aniketAssociate  (keystore.jks)
+         */
+
     }
 }
 
